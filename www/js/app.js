@@ -262,8 +262,8 @@ angular.module('your_app_name', [
       url: "/speed",
     views: {
          'menuContent': {
-          templateUrl: "views/app/speed.html"
-         
+          templateUrl: "views/app/speed.html",
+          controller: 'SpeedCtrl'
              }
            }
        })
