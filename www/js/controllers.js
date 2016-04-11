@@ -88,7 +88,7 @@ angular.module('your_app_name.controllers', [])
         var success = function (p) {
             $scope.positions.lat = p.coords.latitude;
             $scope.positions.long = p.coords.longitude;
-            $scope.positions.speed = p.coords.speed;
+            $scope.positions.speed = p.coords.speed * 3.6;
             $scope.positions.accuracy = p.coords.accuracy;
         };
 
